@@ -1,0 +1,42 @@
+.hero-image{
+    background-image: url("../img/young.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+.hero-overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  .nav-container{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    opacity: 0.6;
+  }
+  .users-button{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+  }
+  button{
+background-color: #542828;
+color: white;
+border: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+  }

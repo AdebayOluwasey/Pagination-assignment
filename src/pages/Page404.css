@@ -1,0 +1,22 @@
+.image{
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+flex-direction: column;
+}
+.image > div > img{
+    height: 200px;
+    width: 300px;
+    }
+    .image-div{
+        display: flex;
+        justify-content: center;
+    }
+    .h1div{
+        display: flex;
+        justify-content: center;
+    }
+    .h1div > h1{
+        text-align: center;
+    }

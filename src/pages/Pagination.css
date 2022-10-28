@@ -1,0 +1,11 @@
+.active{
+    background-color: blue;
+}
+button{
+    width: 70px;
+}
+.pagination-buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
