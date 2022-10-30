@@ -43,8 +43,8 @@ console.log(loading);
 //         </>
 //     )
     const loadingContent = () => (
-       <h1>Loading.....</h1>
-    );
+      <h1>Loading.....</h1>
+);
     const lastUserIndex = currentPage * usersPerPage;
     const firstUserIndex = lastUserIndex -usersPerPage;
     const currentUsers = userData.slice(firstUserIndex, lastUserIndex)
